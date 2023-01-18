@@ -22,6 +22,20 @@ The run_version is important as this is saved in the fits file headers and is us
 
 The Gaia source_id field is used as the index to data in all files, and to combine results at the end. All files should contain a full list of the source ids, even if not all source ids contain data for the feature. For example the WISE input file should contain blank entries in the WISE columns where no data exists for the source. This approach allows the code to run quickly, without needing to combine data by searching the rows of different feature files.
 
+Data Files
+----------
+
+The following data files are needed to run the code. Provided as links to a zip.
+
+Isochrones - A zip of the files and folders of the isochrones (see Wilson et al 2023 for details) in the correct structure to be used by the classifier. Unzipped there are 3.2 GB of files. There are 120 folders at different reddenings, each containing a set of 21 isochrones at different ages.
+https://1drv.ms/u/s!AoS2nZUeme4DmIVIGSGAx8Q_eVYxIA?e=RNynTW
+
+Stilism - A zip of the Stilism reddening files (Lallement et al 2014; Capitanio et al 2017; Lallement et al 2018) used for the Wilson et al (2021) catalogue covering the footprint in Galactic coordinates 20<l<220 and |b|<4. Unzipped there are 17,282 files totalling 214 MB.
+https://1drv.ms/u/s!AoS2nZUeme4DmIVHbPDzhM4gz4hvxw?e=qhWzB9
+
+TestEDR3 - A folder of test input files in the correct format to run the classifier. These also demonstrate the required columns and names to run the classifier. Unzipped there are 12 files totalling 8.9 MB.
+https://1drv.ms/u/s!AoS2nZUeme4DmIVGTRoNnlhqMJBhyg?e=it3LBv
+
 Run Order
 ---------
 
