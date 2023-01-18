@@ -84,3 +84,12 @@ Script called automatically in the calculation of Gaia G variability.
 
 var_model_run.py
 Not directly used but provided as useful for exploring the Gaia G variability model.
+
+Other Files
+-----------
+
+Stilism_Code_Example.txt
+An example of the command line code to download the Stilism map in Galactic coordinates using the Stilism_Coords_Example.csv file.
+
+Stilism_Coords_Example
+Example coordinates file for use with Stilism_Script_Example.txt.
