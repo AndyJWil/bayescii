@@ -1,0 +1,1 @@
+awk -F ',' '{ system("FILE=l"$1"b"$2".csv;curl -o $FILE -X GET -G https://stilism.obspm.fr/reddening -d frame=galactic -d vlong="$1" -d ulong=deg -d vlat="$2" -d ulat=deg -d file=$FILE") }' Stilism_Coords_Example.csv
