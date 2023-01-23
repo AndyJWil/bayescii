@@ -87,10 +87,10 @@ The individual feature code can be run independently, followed by the likelihood
 Other Python Scripts
 --------------------
 
-gaia_edr3_gcor.py
+gaia_data_preparation/gaia_edr3_gcor.py
 Corrects the Gaia EDR3 G-band fluxes and magnitudes. Adapted copy of the Python code from the Gaia EDR3 website.
 
-gaia_edr3_parcor.py
+gaia_data_preparation/gaia_edr3_parcor.py
 Updates the Gaia EDR3 parallaxes for the biases found by Lindegren et al (2021). Adapted copy of the Python code from the Gaia EDR3 website.
 
 dP_dr_fast.py
@@ -102,8 +102,8 @@ Not directly used but provided as useful for exploring the Gaia G variability mo
 Other Files
 -----------
 
-Stilism_Code_Example.txt
+stilism_example/Stilism_Code_Example.txt
 An example of the command line code to download the Stilism map in Galactic coordinates using the Stilism_Coords_Example.csv file.
 
-Stilism_Coords_Example
+stilism_example/Stilism_Coords_Example
 Example coordinates file for use with Stilism_Script_Example.txt.
