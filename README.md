@@ -1,12 +1,8 @@
-# ---------------------------------------------------------
 # Naive Bayes Classifier for indentifying Class II YSOs
 ## Full details in Wilson et al (2023) in MNRAS
 ## Author: Andrew Wilson
 ## Institution: University of Exeter, Astrophysics Group
 ## Date: 18 January 2022
-## University email: aw648@exeter.ac.uk
-## Personal email: andyjwilson_uk@hotmail.com
-# ---------------------------------------------------------
 
 This Read Me file is a brief introduction to the Python scripts used to generate Naive Bayes Classifier results for Class II YSOs.
 It has been written for version 8.28 of the code and will only be updated for major code releases.
@@ -54,8 +50,7 @@ The individual feature code can be run independently, followed by the likelihood
     - Isochrones (link above to download and save in dedicated folder)
 
 2. Update the parameters file with the run version and filepaths.
-  - run_parameters.py
-
+  - run_parameters.py  
 You will need to create a folder for the run results. This starts with the run_filepath variable followed by a subfolder name that matches the region_list Python list.
 
 3. Run the reddening.
@@ -90,23 +85,23 @@ bayes_pub.py - Converts the columns to those in the published catalogue.
 Other Python Scripts
 --------------------
 
-gaia_data_preparation/gaia_edr3_gcor.py
+gaia_data_preparation/gaia_edr3_gcor.py  
 Corrects the Gaia EDR3 G-band fluxes and magnitudes. Adapted copy of the Python code from the Gaia EDR3 website.
 
-gaia_data_preparation/gaia_edr3_parcor.py
+gaia_data_preparation/gaia_edr3_parcor.py  
 Updates the Gaia EDR3 parallaxes for the biases found by Lindegren et al (2021). Adapted copy of the Python code from the Gaia EDR3 website.
 
-dP_dr_fast.py
+dP_dr_fast.py  
 Script called automatically in the calculation of Gaia G variability.
 
-var_model_run.py
+var_model_run.py  
 Not directly used but provided as useful for exploring the Gaia G variability model.
 
 Other Files
 -----------
 
-stilism_example/Stilism_Code_Example.txt
+stilism_example/Stilism_Code_Example.txt  
 An example of the command line code to download the Stilism map in Galactic coordinates using the Stilism_Coords_Example.csv file.
 
-stilism_example/Stilism_Coords_Example
+stilism_example/Stilism_Coords_Example  
 Example coordinates file for use with Stilism_Script_Example.txt.
