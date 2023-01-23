@@ -37,10 +37,10 @@ The individual feature code can be run independently, followed by the likelihood
 **The version of the data, code and parameters is 8.28. This will need to be entered into some of the Python scripts when prompted.**
 
 1. Obtain the input files and save them in your chosen run folder, except for the Stilism files and isochrones which should be saved in dedicated folders. These folders are specified in the run_parameters.py file as described in the next step.  
-  - Feature data:
-    - Gaia
-    - IGAPS
-    - WISE
+   - Feature data:
+     - Gaia
+     - IGAPS
+     - WISE
     - Combined 2MASS and UKIDSS
   - Other data:
     - Coordinates - Any columns appearing in this file will be added to the final results files
