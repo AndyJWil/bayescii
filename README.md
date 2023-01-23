@@ -48,13 +48,13 @@ Feature data:
   - Gaia
   - IGAPS
   - WISE
-  - Combined 2MASS and UKIDSS  
-Other data:  
-  - Coordinates - Any columns appearing in this file will be added to the final results files  
-  - Likelihood csv files  
-  - Gaia G Variability parameters csv file (includes likelihoods)  
-  - Stilism files for 0.5 degree to a side (link above to download)  
-  - Isochrones (link above to download)  
+  - Combined 2MASS and UKIDSS
+Other data:
+  - Coordinates - Any columns appearing in this file will be added to the final results files
+  - Likelihood csv files
+  - Gaia G Variability parameters csv file (includes likelihoods)
+  - Stilism files for 0.5 degree to a side (link above to download)
+  - Isochrones (link above to download)
 
 2 - Update the parameters file with the run version and filepaths.
 		run_parameters.py
