@@ -1,6 +1,3 @@
-# bayescii
-Naive Bayes Classifier for indentifying Class II YSOs
-
 # ---------------------------------------------------------
 # Naive Bayes Classifier for indentifying Class II YSOs
 ## Full details in Wilson et al (2023) in MNRAS
@@ -41,7 +38,7 @@ Run Order
 
 The individual feature code can be run independently, followed by the likelihoods and bayes scripts. Below is the suggested run order for a full end-to-end run.
 
-** The version of the data, code and parameters is 8.28. This will need to be entered into some of the Python scripts when prompted. **
+**The version of the data, code and parameters is 8.28. This will need to be entered into some of the Python scripts when prompted.**
 
 1. Obtain the input files and save them in your chosen run folder, except for the Stilism files and isochrones which should be saved in dedicated folders. These folders are specified in the run_parameters.py file as described in the next step.  
   - Feature data:
