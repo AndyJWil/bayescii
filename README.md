@@ -43,18 +43,15 @@ The individual feature code can be run independently, followed by the likelihood
 
 * The version of the data, code and parameters is 8.28. This will need to be entered into some of the Python scripts when prompted.
 
-1 - Obtain the input files
-	Feature data:
-		Gaia - Save in dedicated folder
-		IGAPS or VPHAS - Save in dedicated folder
-		WISE - Save in dedicated folder
-		2MASS / UKIDSS / VVV - Manually as appropriate - Save in run path
-	Other data
-		Coordinates - Any columns appearing in this file will be added to the final results files - Save in the run path
-		Likelihood csv files - Save in the run path
-		Gaia G Variability parameters csv file (includes likelihoods) - Save in the run path
-		Stilism files for 0.5 degree to a side - https://stilism.obspm.fr - Save in a dedicated folder
-		Isochrones from the Cluster Isochrone server or the ark iso FORTRAN code (or from Tim Naylor) (https://www.astro.ex.ac.uk/people/timn/isochrones/) - Save in a dedicated folder
+1 - Obtain the input files and save them in your chosen run folder, except for the Stilism files and isochrones which should be saved in dedicated folders. These folders are specified in the run_parameters.py file as described in the next step.  
+	Feature data:  
+		Gaia, IGAPS, WISE, combined 2MASS and UKIDSS.  
+	Other data:
+		Coordinates - Any columns appearing in this file will be added to the final results files
+		Likelihood csv files
+		Gaia G Variability parameters csv file (includes likelihoods)
+		Stilism files for 0.5 degree to a side (link above to download)
+		Isochrones (link above to download)
 
 2 - Update the parameters file with the run version and filepaths.
 		run_parameters.py
