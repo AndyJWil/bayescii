@@ -43,20 +43,20 @@ The individual feature code can be run independently, followed by the likelihood
 
 * The version of the data, code and parameters is 8.28. This will need to be entered into some of the Python scripts when prompted.
 
-1 Obtain the input files and save them in your chosen run folder, except for the Stilism files and isochrones which should be saved in dedicated folders. These folders are specified in the run_parameters.py file as described in the next step.  
-Feature data:
-  - Gaia
-  - IGAPS
-  - WISE
-  - Combined 2MASS and UKIDSS
-Other data:
-  - Coordinates - Any columns appearing in this file will be added to the final results files
-  - Likelihood csv files
-  - Gaia G Variability parameters csv file (includes likelihoods)
-  - Stilism files for 0.5 degree to a side (link above to download)
-  - Isochrones (link above to download)
+1. Obtain the input files and save them in your chosen run folder, except for the Stilism files and isochrones which should be saved in dedicated folders. These folders are specified in the run_parameters.py file as described in the next step.  
+  - Feature data:
+    - Gaia
+    - IGAPS
+    - WISE
+    - Combined 2MASS and UKIDSS
+  - Other data:
+    - Coordinates - Any columns appearing in this file will be added to the final results files
+    - Likelihood csv files
+    - Gaia G Variability parameters csv file (includes likelihoods)
+    - Stilism files for 0.5 degree to a side (link above to download and save in dedicated folder)
+    - Isochrones (link above to download and save in dedicated folder)
 
-2 - Update the parameters file with the run version and filepaths.
+2. Update the parameters file with the run version and filepaths.
 		run_parameters.py
 		You will need to create folder(s) for the run results. These start with the run_filepath variable followed by subfolders that match the region_list Python list.
 
