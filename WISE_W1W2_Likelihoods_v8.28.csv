@@ -1,0 +1,15 @@
+Classification,Probability,Field1,Field1Criteria1Qualifier,Field1Criteria1Value,Field1Criteria2Qualifier,Field1Criteria2Value,Field2,Field2Criteria1Qualifier,Field2Criteria1Value,Field2Criteria2Qualifier,Field2Criteria2Value,Field3,Field3Criteria1Qualifier,Field3Criteria1Value,Field3Criteria2Qualifier,Field3Criteria2Value
+Other,0.98488104,wise_W1mW2,<=,0.10000,na,na,na,na,na,na,na,na,na,na,na,na
+Other,0.42542515,wise_W1mW2,>,0.10000,<=,0.10100,na,na,na,na,na,na,na,na,na,na
+Other,0.23079745,wise_W1mW2,>,0.10100,<=,0.12000,na,na,na,na,na,na,na,na,na,na
+Other,0.12014754,wise_W1mW2,>,0.12000,<=,0.19000,na,na,na,na,na,na,na,na,na,na
+Other,0.01901167,wise_W1mW2,>,0.19000,<=,0.26000,na,na,na,na,na,na,na,na,na,na
+Other,0.00463604,wise_W1mW2,>,0.26000,<=,0.30000,na,na,na,na,na,na,na,na,na,na
+Other,0.00204531,wise_W1mW2,>,0.30000,<=,0.38000,na,na,na,na,na,na,na,na,na,na
+Other,0.00090903,wise_W1mW2,>,0.38000,<=,0.50000,na,na,na,na,na,na,na,na,na,na
+Other,0.00010908,wise_W1mW2,>,0.50000,na,na,na,na,na,na,na,na,na,na,na,na
+ClassIIYSO,0.09090909,wise_W1mW2,<=,0.10000,na,na,na,na,na,na,na,na,na,na,na,na
+ClassIIYSO,0.68181818,wise_W1mW2,>,0.10000,<=,0.26000,na,na,na,na,na,na,na,na,na,na
+ClassIIYSO,0.98484848,wise_W1mW2,>,0.26000,<=,0.38000,na,na,na,na,na,na,na,na,na,na
+ClassIIYSO,1.66666667,wise_W1mW2,>,0.38000,<=,0.50000,na,na,na,na,na,na,na,na,na,na
+ClassIIYSO,0.48181818,wise_W1mW2,>,0.50000,na,na,na,na,na,na,na,na,na,na,na,na
