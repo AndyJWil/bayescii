@@ -20,6 +20,8 @@ Data Files
 
 The following data files are needed to run the code. Provided as links to a zip.
 
+Likelihoods - These comma separate values files are saved in the likelihoods folder. These are the likelihoods used for run version 8.28.
+
 Isochrones - A zip of the files and folders of the isochrones (see Wilson et al 2023 for details) in the correct structure to be used by the classifier. Unzipped there are 3.2 GB of files. There are 120 folders at different reddenings, each containing a set of 21 isochrones at different ages.
 https://1drv.ms/u/s!AoS2nZUeme4DmIVIGSGAx8Q_eVYxIA?e=RNynTW
 
