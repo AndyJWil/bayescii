@@ -49,9 +49,9 @@ The individual feature code can be run independently, followed by the likelihood
     - Stilism files for 0.5 degree to a side (link above to download and save in dedicated folder)
     - Isochrones (link above to download and save in dedicated folder)
 
-2. Update the parameters file with the run version and filepaths.
-  - run_parameters.py  
+2. Update the parameters file with the run version and filepaths.  
 You will need to create a folder for the run results. This starts with the run_filepath variable followed by a subfolder name that matches the region_list Python list.
+  - run_parameters.py
 
 3. Run the reddening.
   - stilism_red.py
@@ -63,23 +63,18 @@ You will need to create a folder for the run results. This starts with the run_f
   - isoage.py
   - wise_w1w2.py
 
-5. Run the likelihood script once for each feature/likelihood change.
-
-It is advisable to only have the current likelihood files in the run folder to avoid any risk of accidentally generating results using old likelihoods.
-
+5. Run the likelihood script once for each feature/likelihood change.  
+It is advisable to only have the current likelihood files in the run folder to avoid any risk of accidentally generating results using old likelihoods.  
 Note this script does not generate the Gaia G-band variability likelihoods as they are incorporated in the gaia_g_var script run in the previous step.
   - lhoods.py
 
 6. Run the Bayes script.
   - bayes.py
 
-7. Optional step that updates the file layout to match that published in MNRAS, CDS and other locations.
-
-First run option U to create the published fits file.
-
+7. Optional step that updates the file layout to match that published in MNRAS, CDS and other locations.  
+First run option U to create the published fits file.  
 Second run option V to create the VizieR format text file.
-
-bayes_pub.py - Converts the columns to those in the published catalogue.
+  - bayes_pub.py (Converts the columns to those in the published catalogue.)
 
 
 Other Python Scripts
