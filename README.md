@@ -54,27 +54,27 @@ You will need to create a folder for the run results. This starts with the run_f
    - **run_parameters.py**
 
 3. Run the reddening.
-   - stilism_red.py
+   - **stilism_red.py**
 
 4. Run the feature scripts.
-   - gaia_g_var.py
-   - ha_excess.py
-   - hk_excess.py
-   - isoage.py
-   - wise_w1w2.py
+   - **gaia_g_var.py**
+   - **ha_excess.py**
+   - **hk_excess.py**
+   - **isoage.py**
+   - **wise_w1w2.py**
 
 5. Run the likelihood script once for each feature/likelihood change.  
 It is advisable to only have the current likelihood files in the run folder to avoid any risk of accidentally generating results using old likelihoods.  
 Note this script does not generate the Gaia G-band variability likelihoods as they are incorporated in the gaia_g_var script run in the previous step.
-   - lhoods.py
+   - **lhoods.py**
 
 6. Run the Bayes script.
-   - bayes.py
+   - **bayes.py**
 
 7. Optional step that updates the file layout to match that published in MNRAS, CDS and other locations.  
 First run option U to create the published fits file.  
 Second run option V to create the VizieR format text file.
-   - bayes_pub.py (Converts the columns to those in the published catalogue.)
+   - **bayes_pub.py** (Converts the columns to those in the published catalogue.)
 
 
 Other Python Scripts
