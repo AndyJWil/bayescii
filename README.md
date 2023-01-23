@@ -1,15 +1,15 @@
 # bayescii
 Naive Bayes Classifier for indentifying Class II YSOs
 
-# ------------------------------------------------------------
+# ---------------------------------------------------------
 # Naive Bayes Classifier for indentifying Class II YSOs
-# Full details in Wilson et al (2023) in MNRAS
-# Author: Andrew Wilson
-# Institution: University of Exeter, Astrophysics Group
-# Date: 18 January 2022
-# University email: aw648@exeter.ac.uk
-# Personal email: andyjwilson_uk@hotmail.com
-# ------------------------------------------------------------
+## Full details in Wilson et al (2023) in MNRAS
+## Author: Andrew Wilson
+## Institution: University of Exeter, Astrophysics Group
+## Date: 18 January 2022
+## University email: aw648@exeter.ac.uk
+## Personal email: andyjwilson_uk@hotmail.com
+# ---------------------------------------------------------
 
 This Read Me file is a brief introduction to the Python scripts used to generate Naive Bayes Classifier results for Class II YSOs.
 It has been written for version 8.28 of the code and will only be updated for major code releases.
@@ -43,15 +43,18 @@ The individual feature code can be run independently, followed by the likelihood
 
 * The version of the data, code and parameters is 8.28. This will need to be entered into some of the Python scripts when prompted.
 
-1 - Obtain the input files and save them in your chosen run folder, except for the Stilism files and isochrones which should be saved in dedicated folders. These folders are specified in the run_parameters.py file as described in the next step.  
-	Feature data:  
-		Gaia, IGAPS, WISE, combined 2MASS and UKIDSS.  
-	Other data:
-		Coordinates - Any columns appearing in this file will be added to the final results files
-		Likelihood csv files
-		Gaia G Variability parameters csv file (includes likelihoods)
-		Stilism files for 0.5 degree to a side (link above to download)
-		Isochrones (link above to download)
+1 Obtain the input files and save them in your chosen run folder, except for the Stilism files and isochrones which should be saved in dedicated folders. These folders are specified in the run_parameters.py file as described in the next step.  
+Feature data:
+  - Gaia
+  - IGAPS
+  - WISE
+  - Combined 2MASS and UKIDSS  
+Other data:  
+  - Coordinates - Any columns appearing in this file will be added to the final results files  
+  - Likelihood csv files  
+  - Gaia G Variability parameters csv file (includes likelihoods)  
+  - Stilism files for 0.5 degree to a side (link above to download)  
+  - Isochrones (link above to download)  
 
 2 - Update the parameters file with the run version and filepaths.
 		run_parameters.py
