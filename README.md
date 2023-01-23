@@ -41,62 +41,62 @@ The individual feature code can be run independently, followed by the likelihood
      - Gaia
      - IGAPS
      - WISE
-    - Combined 2MASS and UKIDSS
-  - Other data:
-    - Coordinates - Any columns appearing in this file will be added to the final results files
-    - Likelihood csv files
-    - Gaia G Variability parameters csv file (includes likelihoods)
-    - Stilism files for 0.5 degree to a side (link above to download and save in dedicated folder)
-    - Isochrones (link above to download and save in dedicated folder)
+     - Combined 2MASS and UKIDSS
+   - Other data:
+     - Coordinates - Any columns appearing in this file will be added to the final results files
+     - Likelihood csv files
+     - Gaia G Variability parameters csv file (includes likelihoods)
+     - Stilism files for 0.5 degree to a side (link above to download and save in dedicated folder)
+     - Isochrones (link above to download and save in dedicated folder)
 
 2. Update the parameters file with the run version and filepaths.  
 You will need to create a folder for the run results. This starts with the run_filepath variable followed by a subfolder name that matches the region_list Python list.
-  - run_parameters.py
+   - **run_parameters.py**
 
 3. Run the reddening.
-  - stilism_red.py
+   - stilism_red.py
 
 4. Run the feature scripts.
-  - gaia_g_var.py
-  - ha_excess.py
-  - hk_excess.py
-  - isoage.py
-  - wise_w1w2.py
+   - gaia_g_var.py
+   - ha_excess.py
+   - hk_excess.py
+   - isoage.py
+   - wise_w1w2.py
 
 5. Run the likelihood script once for each feature/likelihood change.  
 It is advisable to only have the current likelihood files in the run folder to avoid any risk of accidentally generating results using old likelihoods.  
 Note this script does not generate the Gaia G-band variability likelihoods as they are incorporated in the gaia_g_var script run in the previous step.
-  - lhoods.py
+   - lhoods.py
 
 6. Run the Bayes script.
-  - bayes.py
+   - bayes.py
 
 7. Optional step that updates the file layout to match that published in MNRAS, CDS and other locations.  
 First run option U to create the published fits file.  
 Second run option V to create the VizieR format text file.
-  - bayes_pub.py (Converts the columns to those in the published catalogue.)
+   - bayes_pub.py (Converts the columns to those in the published catalogue.)
 
 
 Other Python Scripts
 --------------------
 
-gaia_data_preparation/gaia_edr3_gcor.py  
+**gaia_data_preparation/gaia_edr3_gcor.py**  
 Corrects the Gaia EDR3 G-band fluxes and magnitudes. Adapted copy of the Python code from the Gaia EDR3 website.
 
-gaia_data_preparation/gaia_edr3_parcor.py  
+**gaia_data_preparation/gaia_edr3_parcor.py**  
 Updates the Gaia EDR3 parallaxes for the biases found by Lindegren et al (2021). Adapted copy of the Python code from the Gaia EDR3 website.
 
-dP_dr_fast.py  
+**dP_dr_fast.py**  
 Script called automatically in the calculation of Gaia G variability.
 
-var_model_run.py  
+**var_model_run.py**  
 Not directly used but provided as useful for exploring the Gaia G variability model.
 
 Other Files
 -----------
 
-stilism_example/Stilism_Code_Example.txt  
+**stilism_example/Stilism_Code_Example.txt**  
 An example of the command line code to download the Stilism map in Galactic coordinates using the Stilism_Coords_Example.csv file.
 
-stilism_example/Stilism_Coords_Example  
+**stilism_example/Stilism_Coords_Example**  
 Example coordinates file for use with Stilism_Script_Example.txt.
