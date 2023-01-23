@@ -16,11 +16,11 @@ It has been written for version 8.28 of the code and will only be updated for ma
 
 The Python scripts have been written in Python 3.7 on a Mac. They may work in other Python 3.x versions and on Windows. It is intended to be run from the command line and all the Python scripts should be saved in the same folder.
 
-The code can be run by updating the paths in the run_parameters.py file and obtaining the input files. The run paramters file also contains common variables such as the Bayes priors, categories and the list of available regions on which the code can run. Add to or amend the regions by extending region_descriptions and igaps_file_list variables, and the file list variables.
+The code can be run by updating the paths in the run_parameters.py file and obtaining the input files. The run parameters file also contains common variables such as the Bayes priors, categories and the list of available regions on which the code can run. Add to or amend the regions by extending region_descriptions and igaps_file_list variables, and the file list variables.
 
-The run_version is important as this is saved in the fits file headers and is used to identify the run. It is suggested the version numebr is incremented as appropriate with a minor/major update to code, data or likelihoods.
+The run_version is important as this is saved in the fits file headers and is used to identify the run. It is suggested the version number is incremented as appropriate with a minor/major update to code, data or likelihoods.
 
-The Gaia source_id field is used as the index to data in all files, and to combine results at the end. All files should contain a full list of the source ids, even if not all source ids contain data for the feature. For example the WISE input file should contain blank entries in the WISE columns where no data exists for the source. This approach allows the code to run quickly, without needing to combine data by searching the rows of different feature files.
+The Gaia source_id field is used as the index to data in all files, and to combine results at the end. All files should contain a full list of the source ids, even if not all source ids contain data for the feature. For example, the WISE input file should contain blank entries in the WISE columns where no data exists for the source. This approach allows the code to run quickly, without needing to combine data by searching the rows of different feature files.
 
 Data Files
 ----------
@@ -72,14 +72,14 @@ The individual feature code can be run independently, followed by the likelihood
 
 5 - Run the likelihood script once for each feature/likelihood change.
 	It is advisable to only have the current likelihood files in the run folder to avoid any risk of accidentally generating results using old likelihoods.
-	Note this script does not generate the Gaia G-band variability likelihoods as they are incorported in the gaia_g_var script run in the previous step.
+	Note this script does not generate the Gaia G-band variability likelihoods as they are incorporated in the gaia_g_var script run in the previous step.
 		lhoods.py
 
 6 - Run the Bayes script.
 		bayes.py
 
 7 - Optional step that updates the file layout to match that published in MNRAS, CDS and other locations.
-	First run option U to create the publilshed fits file.
+	First run option U to create the published fits file.
 	Second run option V to create the VizieR format text file.
 		bayes_pub.py - Converts the columns to those in the published catalogue.
 
@@ -88,10 +88,10 @@ Other Python Scripts
 --------------------
 
 gaia_edr3_gcor.py
-Corrects the Gaia EDR3 G-band fluxes and magnitudes. Adapated copy of the Python code from the Gaia EDR3 website.
+Corrects the Gaia EDR3 G-band fluxes and magnitudes. Adapted copy of the Python code from the Gaia EDR3 website.
 
 gaia_edr3_parcor.py
-Updates the Gaia EDR3 parallaxes for the biases found by Lindegren et al (2021). Adapated copy of the Python code from the Gaia EDR3 website.
+Updates the Gaia EDR3 parallaxes for the biases found by Lindegren et al (2021). Adapted copy of the Python code from the Gaia EDR3 website.
 
 dP_dr_fast.py
 Script called automatically in the calculation of Gaia G variability.
